@@ -1,4 +1,7 @@
-Ö÷ÒªÊÇÈı¸öÎÄ¼ş£º
+ä¸»è¦æ˜¯ä¸‰ä¸ªæ–‡ä»¶ï¼š
 
-ÓÃcmdÔËĞĞntchat-flask.py£¬ÔËĞĞÖ®ºóÆô¶¯HTTP·şÎñ£¬Ğ´ÆäËû´úÂëµ÷ÓÃ¡£
+ç”¨cmdè¿è¡Œntchat-flask.pyï¼Œè¿è¡Œä¹‹åå¯åŠ¨HTTPæœåŠ¡ï¼Œå†™å…¶ä»–ä»£ç è°ƒç”¨ã€‚
 
+pip install flask[async]
+
+Pyinstaller -F --collect-data=ntchat ntchat-flask.py
